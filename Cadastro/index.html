@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="modalFundo"></div>
+    <div id="envelope">
+        <div id="divImg">
+            <img src="logo.png" alt="">
+            <h1>Game Register</h1>
+        </div>
+  
+        <form>
+            <div id="envelope2">
+                <div class="conteudo">
+                    <label for="nome">Nome do Jogo</label>
+                    <input type="text" format="" class="nome" placeholder="Digite o nome do jogo" required>
+                </div>
+                <div class="conteudo">
+                    <label for="datepicker">Data de Lançamento</label>
+                    <input id="inputData" type="date" format="" class="datepicker"
+                        placeholder="Seleciona a data de lançamento" required>
+                </div>
+                <div class="conteudo">
+                    <label for="categoria">Categoria</label>
+                    <input type="text" format="" class="categoria" placeholder="Escolha a categoria" required>
+                </div>
+                <div class="conteudo">
+                    <label for="banner">URL Banner</label>
+                    <input type="text" id="link" format=""  class="banner" placeholder="Insira o link" required>
+                </div>
+                <div id="divMainBotoes">
+                    <div class="conteudoBotao">
+                        <a id="botao" class="waves-effect waves-light btn">Confirmar</a>
+                    </div>
+                    <div class="conteudoBotao">
+                        <a id="botao2" href="#titulo2" class="waves-effect waves-light btn">Registros</a>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+    <section>
+        <div id="modal"></div>
+        <h1 id="titulo2">Lista de Jogos</h1>
+        <div id="cardDiv"></div>
+    </section>
+
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">About Me</h5>
+              <p class="grey-text text-lighten-4">uncle ant jiminy jillikers here's vanessa williams juzz telepanhandling genius at work kapowza land monster swedish lunchbox bathiola up and at them boostafazoo crayola oblongata delicious caulk yoink nervous pervis superliminal squozen zing bumbled-bee</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 id="h51" class="white-text">Links</h5>
+              <ul>
+                <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.youtube.com/dalmora"><img src="youtube.png" alt=""></li>
+                <li><a target="_blank" class="grey-text text-lighten-3" href="https://instagram.com/odalmora"><img src="instagram.png" alt=""></a></li>
+                <li><a target="_blank" class="grey-text text-lighten-3" href="https://web.facebook.com/dalmorabruno"><img src="facebook.png" alt=""></a></li>
+                <li><a target="_blank" class="grey-text text-lighten-3" href="https://github.com/dalmora/"><img src="github.png" alt=""></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2021 All Rights Reservd
+          </div>
+        </div>
+      </footer>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
