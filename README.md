@@ -1,4 +1,4 @@
-https://github.com/dalmora/CRUDwithFIREBASE/blob/main/Cadastro/logo.png
+![Logo of the project](https://github.com/dalmora/CRUDwithFIREBASE/blob/main/Cadastro/logo.png)
  
 ## Game Register - Cadastro de Jogos
  
